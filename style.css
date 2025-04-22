@@ -1,0 +1,239 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(to bottom right, red,#f57c00, yellow);
+}
+header {
+    background-image: linear-gradient(to bottom right, red, yellow);
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+
+header h1{
+    font-weight: bolder;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+header p{
+    font-weight: bolder;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #f57c00;
+    padding: 10px 0;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+    opacity: 0.9;
+}
+
+nav a:hover{
+    opacity: 1;
+}
+
+
+.main {
+    position: relative; /* Needed for the ::before overlay */
+    width: 100%;
+    height: 80vh;
+    background-image: url("catering2.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.main::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    z-index: 1; /* Ensures overlay stays behind text */
+}
+
+.main-h1,
+.main-p {
+    position: relative; /* Ensures text appears above overlay */
+    z-index: 2;
+    color: white;
+    opacity: 1;
+    padding-left: 40px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+.main-h1 {
+    font-size: 100px;
+    padding-top: 10vh; /* Adjust text positioning */
+}
+
+.main-p {
+    font-size: larger;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+.about{
+    text-align: center;
+
+}
+.about h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    margin:30px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+.about p{
+    border: 2px white solid;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+.btn{
+    background-color: red;
+    border: 3px darkred solid;
+    margin: 40x;
+    color: white;
+}
+
+.btn:hover{
+    box-shadow: 1px 1px 1px black;
+    border: 3px darkred solid;
+}
+
+.services{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.services h1{
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    margin:30px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+.service-list{
+    display: flex;
+    justify-content: center;
+    
+}
+ 
+.list{
+    margin: 20px;
+    height: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+.list:hover{
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.7);
+}
+
+.list img{
+    height: 200px;
+}
+
+.card-body{
+    height: 20%;
+}
+
+.card-text{
+    font-weight: bolder;
+}
+
+.contact{
+    display: flex;
+ }
+ .cont-info{
+    width: 50%;
+    margin: 20px 10px 30px 5px;
+    padding: 50px;
+ }
+ .profile{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid  white;
+    margin: auto;
+    padding: 6px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+
+ }
+ .profile img{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+ }
+ .cont-profile{
+    width: 50%;
+ }
+ 
+ .icon-sec{
+    margin-top: 30px;
+ }
+ .icon{
+    margin-top: 20px;
+ }
+ .icon a{
+    color:  black;
+    margin-top: 50px;
+ }
+ 
+ .icon a i{
+    height: 30px;
+    width: 30px;
+    font-size: 30px;
+    margin: 10px;
+    opacity: 0.6;
+ }
+ 
+ .icon a i:hover{
+    opacity: 1;
+ }
+ 
+ #contact{
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    margin:30px;
+    text-align: center;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+  }
+
+
+  .heading{
+    font-size: 30px;
+    font-weight: bolder;
+
+  }
+ 
+ 
+  footer {
+    background-color: red;
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+    margin-top: 20px;
+ }
+ 
