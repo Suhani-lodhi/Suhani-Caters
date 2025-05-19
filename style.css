@@ -237,3 +237,167 @@ nav a:hover{
     margin-top: 20px;
  }
  
+
+
+
+ /* =================== Responsive Styles =================== */
+
+@media (max-width: 1024px) {
+    .main-h1 {
+        font-size: 60px;
+        padding-top: 8vh;
+    }
+
+    .main-p {
+        font-size: 18px;
+    }
+
+    .about h1,
+    .services h1,
+    #contact {
+        font-size: 40px;
+    }
+
+    .about p {
+        font-size: 18px;
+    }
+
+    .heading {
+        font-size: 24px;
+    }
+
+    .service-list {
+        flex-wrap: wrap;
+    }
+
+    .list {
+        width: 40%;
+    }
+
+    .profile {
+        width: 250px;
+        height: 250px;
+    }
+
+    .profile img {
+        width: 230px;
+        height: 230px;
+    }
+
+    .card-text {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .main {
+        height: 60vh;
+    }
+
+    .main-h1 {
+        font-size: 45px;
+        padding-left: 20px;
+    }
+
+    .main-p {
+        font-size: 16px;
+        padding-left: 20px;
+    }
+
+    .about p {
+        width: 90%;
+    }
+
+    .service-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .list {
+        width: 80%;
+    }
+
+    .contact {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cont-info,
+    .cont-profile {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .profile {
+        width: 200px;
+        height: 200px;
+    }
+
+    .profile img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .icon a i {
+        font-size: 24px;
+    }
+
+    .about h1,
+    .services h1,
+    #contact {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-h1 {
+        font-size: 30px;
+    }
+
+    .main-p {
+        font-size: 14px;
+    }
+
+    .about h1,
+    .services h1,
+    #contact {
+        font-size: 28px;
+    }
+
+    .about p {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    .list {
+        width: 90%;
+    }
+
+    .card-text {
+        font-size: 14px;
+    }
+
+    .heading {
+        font-size: 20px;
+    }
+
+    .profile {
+        width: 150px;
+        height: 150px;
+    }
+
+    .profile img {
+        width: 130px;
+        height: 130px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
